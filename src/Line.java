@@ -1,5 +1,5 @@
 public class Line {
-    int odc;
+
 
 
     Point p1;
@@ -10,7 +10,7 @@ public class Line {
     this.p1 = point1;
     this.p2 = point2;
 
-        odc = p2.start - p1.start;
+
     }
 }
 
