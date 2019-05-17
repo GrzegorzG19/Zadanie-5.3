@@ -1,12 +1,16 @@
 public class Line {
     int odc;
-    int start, end;
 
-    public Line(Point point) {
-    this.start = point.start;
-    this.end = point.end;
 
-        odc = point.end - point .start;
+    Point p1;
+    Point p2;
+
+
+    public Line(Point point1, Point point2) {
+    this.p1 = point1;
+    this.p2 = point2;
+
+        odc = p2.start - p1.start;
     }
 }
 
